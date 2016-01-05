@@ -1,0 +1,300 @@
+18015,846504,Cycadopsida
+18016,954913,Cycadales
+18017,18016,Cycadaceae
+18022,954914,Ginkgoales
+18023,18022,Ginkgoaceae
+18030,500028,Pinaceae
+18031,18030,Abies
+18033,18030,Picea
+18035,18030,Pinus
+18042,500028,Cupressaceae
+18043,18042,Thuja
+18044,18043,Thuja plicata
+18045,18042,Chamaecyparis
+18047,18042,Juniperus
+18048,18047,Juniperus virginiana
+18049,500028,Araucariaceae
+18063,846504,Magnoliopsida
+18065,846543,Magnoliales
+18068,18065,Magnoliaceae
+18069,18068,Magnolia
+18074,18069,Magnolia grandiflora
+18075,18069,Magnolia macrophylla
+18085,18068,Liriodendron
+18086,18085,Liriodendron tulipifera
+18145,500025,Lauraceae
+18177,18145,Laurus
+19018,27767,Platanaceae
+19019,19018,Platanus
+19020,19019,Platanus occidentalis
+19026,895195,Liquidambar
+19027,19026,Liquidambar styraciflua
+19038,24057,Ulmaceae
+19039,19118,Celtis
+19048,19038,Ulmus
+19053,19048,Ulmus glabra
+19056,19048,Ulmus procera
+19063,24057,Moraceae
+19064,19063,Morus
+19066,19064,Morus alba
+19069,19064,Morus nigra
+19070,19064,Morus rubra
+19081,19063,Ficus
+19083,19081,Ficus benjamina
+19093,19081,Ficus carica
+19100,19063,Maclura
+19102,19100,Maclura pomifera
+19118,24057,Cannabaceae
+19222,19273,Juglandaceae
+19248,19222,Juglans
+19254,19248,Juglans nigra
+19273,846548,Fagales
+19275,19273,Fagaceae
+19276,19275,Quercus
+19405,19276,Quercus robur
+19408,19276,Quercus rubra
+19430,19276,Quercus suber
+19451,19275,Castanea
+19461,19275,Fagus
+19465,19273,Betulaceae
+19466,19465,Alnus
+19470,19466,Alnus glutinosa
+19471,19466,Alnus incana
+19478,19465,Betula
+19495,19478,Betula pendula
+19503,19465,Carpinus
+19505,19465,Corylus
+21500,846548,Malvales
+21535,21608,Tilia
+21541,21535,Tilia platyphyllos
+21608,21500,Malvaceae
+21611,21608,Hibiscus
+21638,21611,Hibiscus syriacus
+22443,822428,Salicaceae
+22444,22443,Populus
+22451,22444,Populus alba
+22468,22444,Populus nigra
+22473,22444,Populus tremula
+22476,22443,Salix
+22515,22476,Salix caprea
+22566,22476,Salix pentandra
+22594,22476,Salix viminalis
+23443,846535,Ericales
+23463,23443,Ericaceae
+23571,23463,Vaccinium
+23574,23571,Vaccinium uliginosum
+23605,23571,Vaccinium myrtillus
+23625,23463,Arbutus
+23629,23625,Arbutus unedo
+23633,23463,Calluna
+23634,23633,Calluna vulgaris
+23647,23463,Erica
+23650,23647,Erica tetralix
+23852,23443,Ebenaceae
+23853,23852,Diospyros
+24057,846548,Rosales
+24094,846633,Grossulariaceae
+24448,24094,Ribes
+24488,24448,Ribes nigrum
+24538,24057,Rosaceae
+24539,24538,Crataegus
+24586,24539,Crataegus monogyna
+24762,24538,Prunus
+24765,24762,Prunus persica
+24769,24762,Prunus armeniaca
+24770,24762,Prunus avium
+24772,24762,Prunus cerasifera
+24773,24762,Prunus cerasus
+24774,24762,Prunus domestica
+24775,24762,Prunus dulcis
+24798,24762,Prunus padus
+24802,24762,Prunus spinosa
+24807,24538,Rosa
+24819,24807,Rosa canina
+25254,24538,Malus
+25262,25254,Malus pumila
+25294,24538,Pyrus
+25295,25294,Pyrus communis
+25318,24538,Sorbus
+25320,25318,Sorbus aucuparia
+26184,500059,Robinia
+26417,500059,Acacia
+26425,26417,Acacia dealbata
+26530,500059,Ceratonia
+26531,26530,Ceratonia siliqua
+26760,500059,Laburnum
+26761,26760,Laburnum anagyroides
+27072,846548,Myrtales
+27124,21500,Thymelaeaceae
+27125,27124,Daphne
+27126,27125,Daphne mezereum
+27172,27072,Myrtaceae
+27187,27172,Eucalyptus
+27189,27187,Eucalyptus globulus
+27767,846546,Proteales
+27768,24057,Elaeagnaceae
+27769,27768,Elaeagnus
+27770,27769,Elaeagnus angustifolia
+27788,846535,Cornales
+27796,27788,Cornaceae
+27798,27796,Cornus
+27806,27798,Cornus florida
+27931,846548,Celastrales
+27937,27931,Celastraceae
+27945,27937,Euonymus
+27949,27945,Euonymus europaeus
+27979,835356,Aquifoliaceae
+27980,27979,Ilex
+28021,846615,Buxaceae
+28022,28021,Buxus
+28445,24057,Rhamnaceae
+28561,28445,Rhamnus
+28579,28561,Rhamnus frangula
+28643,846548,Sapindales
+28657,28643,Sapindaceae
+28685,28657,Koelreuteria
+28714,28657,Aesculus
+28721,28714,Aesculus hippocastanum
+28727,28657,Acer
+28739,28727,Acer campestre
+28755,28727,Acer platanoides
+28756,28727,Acer pseudoplatanus
+28757,28727,Acer saccharinum
+28825,28643,Simaroubaceae
+28826,28825,Ailanthus
+28827,28826,Ailanthus altissima
+28848,28643,Rutaceae
+28882,28848,Citrus
+31632,846535,Lamiales
+32246,32251,Tectona
+32247,32246,Tectona grandis
+32251,31632,Lamiaceae
+32927,31632,Oleaceae
+32928,32927,Fraxinus
+32961,32927,Forsythia
+32962,32961,Forsythia suspensa
+32964,32927,Jasminum
+32973,32927,Ligustrum
+32977,32973,Ligustrum ovalifolium
+32989,32927,Olea
+32990,32989,Olea europaea
+32994,32927,Syringa
+32996,32994,Syringa vulgaris
+34305,31632,Bignoniaceae
+34312,34305,Catalpa
+34313,34312,Catalpa bignonioides
+35247,846535,Dipsacales
+35248,35247,Caprifoliaceae
+35249,35346,Viburnum
+35270,35249,Viburnum opulus
+35281,35248,Lonicera
+35308,35281,Lonicera xylosteum
+35315,35346,Sambucus
+35324,35315,Sambucus nigra
+35326,35315,Sambucus racemosa
+35346,35247,Adoxaceae
+42431,846542,Arecales
+183257,18017,Cycas
+183258,183257,Cycas revoluta
+183264,18023,Ginkgo
+183269,183264,Ginkgo biloba
+183284,18031,Abies grandis
+183289,18033,Picea abies
+183307,18033,Picea pungens
+183358,18035,Pinus mugo
+183364,18035,Pinus nigra
+183385,18035,Pinus strobus
+183389,18035,Pinus sylvestris
+183396,18030,Tsuga
+183397,183396,Tsuga canadensis
+183400,183396,Tsuga heterophylla
+183409,18030,Larix
+183410,183409,Larix decidua
+183434,18042,Sequoia
+183435,183434,Sequoia sempervirens
+183437,18042,Sequoiadendron
+183438,183437,Sequoiadendron giganteum
+183453,18045,Chamaecyparis lawsoniana
+183455,18042,Cupressus
+183456,183455,Cupressus sempervirens
+183481,18049,Araucaria
+183482,183481,Araucaria araucana
+183543,19478,Betula pubescens
+184204,19503,Carpinus betulus
+194820,18047,Juniperus communis
+194881,500028,Taxaceae
+194882,194881,Taxus
+194883,194882,Taxus baccata
+195053,19019,Platanus orientalis
+202422,0,Plantae
+500006,846504,Ginkgoopsida
+500009,846504,Pinopsida
+500022,846548,Fabales
+500025,846543,Laurales
+500028,954916,Pinales
+500043,42431,Arecaceae
+500059,500022,Fabaceae
+500173,18042,Calocedrus
+500630,18042,Metasequoia
+501097,28022,Buxus sempervirens
+501145,500173,Calocedrus decurrens
+501642,19505,Corylus avellana
+502590,19461,Fagus sylvatica
+502663,32928,Fraxinus excelsior
+503154,27980,Ilex aquifolium
+503237,32964,Jasminum nudiflorum
+503244,19248,Juglans regia
+503286,28685,Koelreuteria paniculata
+503343,18177,Laurus nobilis
+503450,32973,Ligustrum lucidum
+504798,24448,Ribes rubrum
+504800,24448,Ribes uva-crispa
+504804,26184,Robinia pseudoacacia
+505507,21535,Tilia cordata
+505635,23571,Vaccinium oxycoccos
+505637,23571,Vaccinium vitis-idaea
+505864,500630,Metasequoia glyptostroboides
+505982,32928,Fraxinus ornus
+506192,18069,Magnolia stellata
+506534,19276,Quercus cerris
+506539,19276,Quercus petraea
+506541,19451,Castanea sativa
+506604,18035,Pinus pinea
+506607,18031,Abies alba
+507912,32961,Forsythia X intermedia
+508044,22476,Salix daphnoides
+519166,19019,Platanus acerifolia
+520236,24807,Rosa glauca
+520258,24807,Rosa rubiginosa
+565053,19039,Celtis australis
+817184,500043,Trachycarpus
+817201,817184,Trachycarpus fortunei
+822428,846548,Malpighiales
+822533,18042,Callitropsis
+822598,822533,Callitropsis macrocarpa
+822688,18035,Pinus heldreichii
+825213,28882,Citrus X sinensis
+835356,846535,Aquifoliales
+836433,25318,Sorbus aria
+836670,25318,Sorbus torminalis
+846494,954898,Streptophyta
+846496,954900,Tracheophyta
+846504,846496,Spermatophytina
+846535,18063,Asteranae
+846538,18063,Buxanae
+846542,18063,Lilianae
+846543,18063,Magnolianae
+846546,18063,Proteanae
+846548,18063,Rosanae
+846550,18063,Saxifraganae
+846615,846538,Buxales
+846633,846550,Saxifragales
+895195,846633,Altingiaceae
+896098,27798,Cornus capitata
+896176,23853,Diospyros kaki
+952041,24539,Crataegus germanica
+954898,202422,Viridiplantae
+954900,846494,Embryophyta
+954913,18015,Cycadidae
+954914,500006,Ginkgooidae
+954916,500009,Pinidae
