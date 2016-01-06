@@ -13,3 +13,10 @@ File GENERAL.md contains bunch of queries used for basic descriptional statistic
 
 Folder visualization contains simple python script to create visualizations using typical python libraries.
 
+Using the data backup
+=====================
+
+Due to GitHub file limit (100 MB) the representations archive is splitted into parts.
+Before using the backup join the files together with following command:
+$ cat representations-* > representations.tar.gz
+(SHA-1 sum is b4365349268d4ec315b61e242d303ab4cef1bbd4)
