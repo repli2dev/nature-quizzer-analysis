@@ -16,17 +16,9 @@ Cross JOIN organism_tree(latin_name) AS ot
 JOIN itis.taxonomic_units as tu ON tu.tsn = ot.tsn
 WHERE id_organism IN (65, 78,85, 86, 13, 15, 402, 395, 106, 16);
 """
+
 import csv
-import sys
-
-# To prevent some UTF-8 related issues
-reload(sys)
-sys.setdefaultencoding("utf-8")
-
-#aaaaaaaaaaaaaaaaaaa
-
-
-import pydot # import pydot or you're not going to get anywhere my friend :D
+import pydot
 
 names = {}
 
@@ -52,5 +44,3 @@ with open('../data/processed/taxonomy-tree.csv', 'rb') as data:
         graph.add_edge(edge)
 
 graph.write_png('tree.png')
-
-##bbbbbbbbbbbbbbbbbbbbb
