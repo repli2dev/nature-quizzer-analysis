@@ -91,3 +91,43 @@
     WHERE a.main = TRUE
     GROUP BY a.id_organism, b.id_organism, a1.name, b1.name
     ORDER BY COUNT(b.id_organism)::FLOAT / (SElECT COUNT(*) FROM answer AS x WHERE main = FALSE AND x.id_organism = b.id_organism) DESC
+    
+    
+-- Statistics of organisms used as question / distractor
+    SELECT
+    answer.id_organism,
+    name,
+    COUNT (case when main = TRUE then 1 end) AS used_as_main,
+    COUNT (case when main = FALSE then 1 end) AS used_as_distractor
+    FROM answer
+    JOIN organism_name ON organism_name.id_organism = answer.id_organism AND id_language = 1
+    GROUP BY answer.id_organism, name
+    ORDER BY used_as_distractor DESC
+
+--- Organisms (with distance between them) in which given organism as distractor was used
+    SELECT b.id_organism, name, distance, COUNT(*) AS count, (SELECT COUNT(*) FROM answer where id_organism = b.id_organism AND main = TRUE) as total_asked,
+    (SELECT COUNT(*) FROM answer x where x.id_organism = 91 AND main = TRUE) as distractor_total_asked
+    FROM "answer"
+    JOIN answer as b ON b.id_round = answer.id_round and answer.question_seq_num = b.question_seq_num AND b.main = TRUE
+    JOIN organism_name ON organism_name.id_organism = b.id_organism AND id_language = 1
+    JOIN organism_distance ON id_organism_from = answer.id_organism AND id_organism_to = b.id_organism
+    WHERE answer."id_organism" = '91' AND answer."main" = 'false'
+    GROUP BY b.id_organism, distance, name
+    ORDER BY count DESC
+    
+--- List organisms with are asked more then uniform distribution over organisms (commonness!)
+    SELECT
+     *
+    FROM
+    (SELECT
+    name AS commonness_value,
+    value,
+    (SELECT COUNT(*) FROM answer WHERE id_organism = organism_name.id_organism AND main = TRUE) AS organism_asked,
+    (SELECT COUNT(*) FROM answer WHERE main = TRUE) AS total_asked,
+    (SELECT COUNT(*) FROM answer WHERE id_organism = organism_name.id_organism AND main = TRUE) / (SELECT COUNT(*) FROM answer WHERE main = TRUE)::FLOAT AS ratio
+    FROM organism_name 
+    JOIN organism_commonness USING (id_organism)
+    WHERE id_language = 1
+    ) t
+    WHERE ratio > (SELECT COUNT(*) FROM organism)::FLOAT/(SELECT COUNT(*) FROM answer WHERE main = TRUE)
+    ORDER BY ratio DESC
